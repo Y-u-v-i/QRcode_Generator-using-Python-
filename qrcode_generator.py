@@ -1,11 +1,4 @@
-from pil import Image
-
-img = Image.new('RGB', (100, 100), color = 'red')
-img.show()
-
-
-
-'''import qrcode
+import qrcode
 from PIL import Image
 qr = qrcode.QRCode(
     version=1,
@@ -16,4 +9,4 @@ qr = qrcode.QRCode(
 qr.add_data("https://www.youtube.com/")
 qr.make(fit=True)
 img = qr.make_image(fill_color="red", back_color="blue")
-img.save("Youtube.png")'''
+img.save("Youtube.png")
